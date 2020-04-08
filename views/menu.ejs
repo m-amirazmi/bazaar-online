@@ -11,9 +11,9 @@
       >
         HEAVY MEAL
       </h5>
-      <% menus.forEach(menu=>{ if(menu.menuCategory === "1"){%>
       <div class="row">
-        <div class="col m3 s12">
+        <% menus.forEach(menu=>{ if(menu.menuCategory === "1"){%>
+        <div class="col m3 s10 offset-s1">
           <a href="/malay/:id">
             <div class="card">
               <div class="card-image">
@@ -25,7 +25,7 @@
                 >
               </div>
               <div class="card-content">
-                <span class="card-title"><%=menu.menuName%></span>
+                <span class="card-title truncate"><%=menu.menuName%></span>
                 <p><%=menu.menuPrice%></p>
                 <p class="truncate">
                   <%=menu.menuDesc%>
@@ -34,17 +34,17 @@
             </div>
           </a>
         </div>
+        <% }})%>
       </div>
-      <% }})%>
       <h5
         class="grey-text text-lighten-1 center-align scrollspy"
         id="lightmeals"
       >
         LIGHT MEAL
       </h5>
-      <% menus.forEach(menu=>{ if(menu.menuCategory === "2"){%>
       <div class="row">
-        <div class="col m3 s12">
+        <% menus.forEach(menu=>{ if(menu.menuCategory === "2"){%>
+        <div class="col m3 s10 offset-s1">
           <a href="/malay/:id">
             <div class="card">
               <div class="card-image">
@@ -56,7 +56,7 @@
                 >
               </div>
               <div class="card-content">
-                <span class="card-title"><%=menu.menuName%></span>
+                <span class="card-title truncate"><%=menu.menuName%></span>
                 <p><%=menu.menuPrice%></p>
                 <p class="truncate">
                   <%=menu.menuDesc%>
@@ -65,14 +65,14 @@
             </div>
           </a>
         </div>
+        <% }})%>
       </div>
-      <% }})%>
       <h5 class="grey-text text-lighten-1 center-align scrollspy" id="veggie">
         VEGGIE BASED
       </h5>
-      <% menus.forEach(menu=>{ if(menu.menuCategory === "3"){%>
       <div class="row">
-        <div class="col m3 s12">
+        <% menus.forEach(menu=>{ if(menu.menuCategory === "3"){%>
+        <div class="col m3 s10 offset-s1">
           <a href="/malay/:id">
             <div class="card">
               <div class="card-image">
@@ -84,7 +84,7 @@
                 >
               </div>
               <div class="card-content">
-                <span class="card-title"><%=menu.menuName%></span>
+                <span class="card-title truncate"><%=menu.menuName%></span>
                 <p><%=menu.menuPrice%></p>
                 <p class="truncate">
                   <%=menu.menuDesc%>
@@ -93,14 +93,14 @@
             </div>
           </a>
         </div>
+        <% }})%>
       </div>
-      <% }})%>
       <h5 class="grey-text text-lighten-1 center-align scrollspy" id="meat">
         MEAT BASED
       </h5>
-      <% menus.forEach(menu=>{ if(menu.menuCategory === "4"){%>
       <div class="row">
-        <div class="col m3 s12">
+        <% menus.forEach(menu=>{ if(menu.menuCategory === "4"){%>
+        <div class="col m3 s10 offset-s1">
           <a href="/malay/:id">
             <div class="card">
               <div class="card-image">
@@ -112,7 +112,7 @@
                 >
               </div>
               <div class="card-content">
-                <span class="card-title"><%=menu.menuName%></span>
+                <span class="card-title truncate"><%=menu.menuName%></span>
                 <p><%=menu.menuPrice%></p>
                 <p class="truncate">
                   <%=menu.menuDesc%>
@@ -121,14 +121,14 @@
             </div>
           </a>
         </div>
+        <% }})%>
       </div>
-      <% }})%>
       <h5 class="grey-text text-lighten-1 center-align scrollspy" id="sides">
         SIDES
       </h5>
-      <% menus.forEach(menu=>{ if(menu.menuCategory === "5"){%>
       <div class="row">
-        <div class="col m3 s12">
+        <% menus.forEach(menu=>{ if(menu.menuCategory === "5"){%>
+        <div class="col m3 s10 offset-s1">
           <a href="/malay/:id">
             <div class="card">
               <div class="card-image">
@@ -140,7 +140,7 @@
                 >
               </div>
               <div class="card-content">
-                <span class="card-title"><%=menu.menuName%></span>
+                <span class="card-title truncate"><%=menu.menuName%></span>
                 <p><%=menu.menuPrice%></p>
                 <p class="truncate">
                   <%=menu.menuDesc%>
@@ -149,15 +149,15 @@
             </div>
           </a>
         </div>
+        <% }})%>
       </div>
-      <% }})%>
       <section class="scrollspy" id="drinks">
         <h5 class="grey-text text-lighten-1 center-align">
           DRINKS
         </h5>
-        <% menus.forEach(menu=>{ if(menu.menuCategory === "6"){%>
         <div class="row">
-          <div class="col m3 s12">
+          <% menus.forEach(menu=>{ if(menu.menuCategory === "6"){%>
+          <div class="col m3 s10 offset-s1">
             <a href="/malay/:id">
               <div class="card">
                 <div class="card-image">
@@ -169,7 +169,7 @@
                   >
                 </div>
                 <div class="card-content">
-                  <span class="card-title"><%=menu.menuName%></span>
+                  <span class="card-title truncate"><%=menu.menuName%></span>
                   <p><%=menu.menuPrice%></p>
                   <p class="truncate">
                     <%=menu.menuDesc%>
@@ -178,8 +178,8 @@
               </div>
             </a>
           </div>
+          <% }})%>
         </div>
-        <% }})%>
       </section>
     </section>
     <%- include("partials/jquery") %>

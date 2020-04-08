@@ -25,3 +25,9 @@
 .add-menu-title {
   margin-top: 5vw;
 }
+.card .card-image {
+  height: 155px;
+}
+.card .card-image img {
+  height: 100%;
+}
