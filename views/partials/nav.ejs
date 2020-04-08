@@ -1,10 +1,13 @@
 <header>
   <div class="navbar-fixed">
     <nav>
-      <div class="nav-wrapper green darken-3">
+      <div class="nav-wrapper green">
         <div class="container">
           <a href="/" class="brand-logo">BAZAAR ON</a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <a href="#" data-target="mobile-links" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
             <li><a href="/login">Login</a></li>
             <li><a href="/register">Register</a></li>
             <li><a href="/add-menu">Add Menu</a></li>
@@ -13,4 +16,9 @@
       </div>
     </nav>
   </div>
+  <ul class="sidenav" id="mobile-links">
+    <li><a href="/login">Login</a></li>
+    <li><a href="/register">Register</a></li>
+    <li><a href="/add-menu">Add Menu</a></li>
+  </ul>
 </header>
