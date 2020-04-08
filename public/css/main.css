@@ -3,7 +3,9 @@
 }
 .category-img-box {
   margin-top: 25px;
-  height: 80px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 120px;
 }
 .category-img-box img {
   height: 100%;
@@ -25,7 +27,7 @@
 .add-menu-title {
   margin-top: 5vw;
 }
-.card .card-image {
+.menu-card-image {
   height: 190px;
 }
 .card .card-image img {
