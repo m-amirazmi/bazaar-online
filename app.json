@@ -1,0 +1,7 @@
+{
+  "name": "Bazaar Online",
+  "description": "Bazaar Online Apps",
+  "repository": "https://github.com/m-amirazmi/bazaar-online",
+
+  "keywords": ["node", "express", "heroku"]
+}
