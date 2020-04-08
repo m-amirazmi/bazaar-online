@@ -1,0 +1,27 @@
+.card__box {
+  padding: 0px !important;
+}
+.category-img-box {
+  margin-top: 25px;
+  height: 8vw;
+}
+.category-img-box img {
+  height: 100%;
+  width: 100%;
+}
+.card .card-image .card-title {
+  padding: 0;
+  padding-left: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.carousel.carousel-slider {
+  height: 12vw !important;
+}
+.carousel.carousel-slider .carousel-item h2 {
+  margin: 2.5vw;
+}
+.add-menu-title {
+  margin-top: 5vw;
+}
